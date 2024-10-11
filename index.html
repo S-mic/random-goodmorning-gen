@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Good Morning Language Generatorr</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center; /* Center items horizontally */
+            min-height: 100vh;
+            text-align: center;
+            background-color: grey;
+            font-family: 'Arial', sans-serif; /* Font style */
+        }
+        h1 {
+            color: #fff; /* White text for the heading */
+            margin-bottom: 20px; /* Space below the heading */
+        }
+        p {
+            font-size: 24px; /* Font size for quotes */
+            color: #fff; /* White text for quotes */
+            margin: 20px 0; /* Space around the paragraph */
+            padding: 10px; /* Padding around the quote text */
+            border: 2px solid white; /* White border around quotes */
+            border-radius: 5px; /* Rounded corners */
+            background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+        }
+        button {
+            background-color: white; /* Button background color */
+            color: turquoise; /* Button text color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded button corners */
+            width: 150px; /* Button width */
+            height: 50px; /* Button height */
+            font-size: 16px; /* Font size for button text */
+            cursor: pointer; /* Change cursor on hover */
+            transition: background-color 0.3s ease; /* Smooth background transition */
+        }
+        button:hover {
+            background-color: lightgray; /* Change background on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Good Morning Language Generator</h1>
+    <p id="quote">Click the button to generate Good Morning!</p>
+    <button onclick="generateQuote()">Generate Good Morning</button>
+    
+  <script src="index.js"></script>
+</body>
+</html>
